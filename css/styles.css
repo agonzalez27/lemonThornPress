@@ -4,8 +4,17 @@ body {
 
 .hero-header {
   font-size: 75px;
-  margin-top: 75px; 
+  margin-top: 75px;
 
+}
+
+#message {
+  width: 500px; 
+  height: 100px;
+}
+
+.textSize {
+  font-size: 25px;
 }
 
 .hero-sub-header {

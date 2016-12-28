@@ -1,6 +1,6 @@
-console.log('this is connected')
+(function() {
+  'use strict';
 
-$(document).ready(function(){
-   $(".button-collapse").sideNav();
-   $('.parallax').parallax();
-})
+  angular.module('lemonThornPress', ['ui.router']);
+
+}());
