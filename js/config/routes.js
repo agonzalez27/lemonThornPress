@@ -23,5 +23,9 @@
         url: '/media',
         templateUrl: 'js/templates/media.html'
       })
+      .state('press', {
+        url: '/press',
+        templateUrl: 'js/templates/press.html'
+      })
   }
 }());

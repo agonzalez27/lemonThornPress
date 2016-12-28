@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: rgba(225,225,225,1);
 }
 
 .hero-header {
@@ -9,7 +9,7 @@ body {
 }
 
 #message {
-  width: 500px; 
+  width: 500px;
   height: 100px;
 }
 
@@ -34,9 +34,17 @@ body {
     .rightDiv {
       display: none;
     }
+
+    .cardText {
+      font-size: 10px;
+    }
+
+    h5 {
+      font-size: 20px;
+    }
 }
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
     .hero-header {
       margin-top: 150px;
       font-size: 75px;
@@ -49,7 +57,13 @@ body {
     .rightDiv {
       display: none;
     }
-}
+}*/
+
+/*@media screen and (max-width: 1000px) {
+  .rightDiv {
+    display: none;
+  }
+}*/
 
 .rightDiv {
   position: fixed;
