@@ -21,49 +21,61 @@ body {
   font-size: 50px;
 }
 
+.bookCard {
+  font-size: 15px;
+}
+
+.bioTextSize {
+  font-size: 35px;
+}
+
+.mobileConnect {
+  bottom: 0;
+}
+
+.pinterest {
+  margin-top: 10px; 
+}
+
 @media screen and (max-width: 480px) {
     .hero-header {
       margin-top: 150px;
-      font-size: 50px;
+      font-size: 5px;
     }
 
     .hero-sub-header {
       font-size: 25px;
     }
 
-    .rightDiv {
-      display: none;
-    }
-
-    .cardText {
-      font-size: 10px;
-    }
-
     h5 {
+      font-size: 20px;
+    }
+
+    .bookCard {
+      font-size: 8px;
+    }
+
+    .bioTextSize {
       font-size: 20px;
     }
 }
 
-/*@media screen and (max-width: 768px) {
-    .hero-header {
-      margin-top: 150px;
-      font-size: 75px;
-    }
 
-    .hero-sub-header {
-      font-size: 35px;
-    }
-
-    .rightDiv {
-      display: none;
-    }
-}*/
-
-/*@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .rightDiv {
     display: none;
   }
-}*/
+
+  .hero-header {
+    margin-top: 150px;
+    font-size: 55px;
+  }
+
+  .hero-sub-header{
+    font-size: 35px;
+  }
+
+}
 
 .rightDiv {
   position: fixed;
