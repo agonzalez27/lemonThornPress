@@ -34,7 +34,7 @@ body {
 }
 
 .pinterest {
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 480px) {
@@ -82,4 +82,11 @@ body {
   bottom: 5%;
   left: 20px;
   width: 200px;
+}
+
+.leftDiv {
+  position: fixed;
+  bottom: 20%;
+  right: 20px;
+  width: 150px;
 }
