@@ -2,6 +2,10 @@ body {
   background-color: rgba(225,225,225,1);
 }
 
+#press {
+  font-size: 20px; 
+}
+
 #icons {
   margin-top: 4%;
 }
