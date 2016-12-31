@@ -2,10 +2,24 @@ body {
   background-color: rgba(225,225,225,1);
 }
 
-.hero-header {
-  font-size: 75px;
-  margin-top: 75px;
+#icons {
+  margin-top: 4%;
+}
 
+.hero-header {
+  font-size: 85px;
+  margin-top: 75px;
+  font-family: 'Cantata One', serif;
+
+}
+
+.hero-sub-header {
+  font-size: 70px;
+  font-family: 'Dr Sugiyama', cursive;
+}
+
+.pressFont {
+  font-family: 'Cantata One', serif;
 }
 
 #message {
@@ -17,9 +31,10 @@ body {
   font-size: 25px;
 }
 
-.hero-sub-header {
-  font-size: 50px;
+h5 {
+  font-family: 'Cantata One', serif;
 }
+
 
 .bookCard {
   font-size: 15px;
@@ -33,60 +48,41 @@ body {
   bottom: 0;
 }
 
-.pinterest {
+#pinterest {
   margin-top: 10px;
 }
 
-@media screen and (max-width: 480px) {
-    .hero-header {
-      margin-top: 150px;
-      font-size: 5px;
-    }
 
-    .hero-sub-header {
-      font-size: 25px;
-    }
-
-    h5 {
-      font-size: 20px;
-    }
-
-    .bookCard {
-      font-size: 8px;
-    }
-
-    .bioTextSize {
-      font-size: 20px;
-    }
-}
-
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   .rightDiv {
     display: none;
   }
 
   .hero-header {
-    margin-top: 150px;
-    font-size: 55px;
+    margin-top: 75px;
+    font-size: 41px;
   }
 
   .hero-sub-header{
-    font-size: 35px;
+    font-size: 45px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  #icons {
+    margin-top: 20%;
   }
 
 }
 
-.rightDiv {
-  position: fixed;
-  bottom: 5%;
-  left: 20px;
-  width: 200px;
-}
-
-.leftDiv {
-  position: fixed;
-  bottom: 20%;
-  right: 20px;
-  width: 150px;
+@media screen and (max-width: 468px) {
+  #icons {
+    margin-top: 40%;
+  }
 }

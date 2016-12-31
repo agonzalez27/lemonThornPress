@@ -10,6 +10,9 @@
     <script src="https://use.fontawesome.com/a7e7b6a73a.js"></script>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Import Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Cantata+One|Dr+Sugiyama" rel="stylesheet">
+
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -18,7 +21,7 @@
   <body>
     <nav>
       <div class="nav-wrapper teal darken-4">
-        <a ui-sref="home" class="brand-logo  yellow-text accent-2">The Lemon Thorn Press</a>
+        <a ui-sref="home" class="brand-logo yellow-text accent-2 pressFont">The Lemon Thorn Press</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a ui-sref="home">Books</a></li>
@@ -40,28 +43,25 @@
       <div class="container">
         <div class="row">
           <div class="col l12 s12 white-text">
-            <h3 class="right-align teal-text text-darken-4 hero-header">Alfonso A. Guilin</h3>
+            <h3 class="right-align teal-text text-darken-4 hero-header">Alfonso <br>A. Guilin</h3>
             <h5 class="right-align blue-grey-text darken-4 hero-sub-header">Storyteller</h5>
           </div>
         </div>
       </div>
-      <div class="parallax"><img src="assets/img/dadlimo_edited2.jpg"></div>
-        <div class="row"></div>
-        <div class="row"></div>
-        <div class="row"></div>
-        <div class="row center hide-on-large-only">
-          <div class="col l4 m4 s4">
-            <span class="white-text"><a href="https://www.facebook.com/The-lemon-thorn-La-espina-de-limon-194183640613583/" target="_blank"><i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i></a></span>
+      <div class="parallax"><img src="assets/img/dadlimo_edited2.png"></div>
+        <div class="row center" id="icons">
+          <div class="col l4 m4 s4" id="facebook">
+            <span class="white-text"><a href="https://www.facebook.com/The-lemon-thorn-La-espina-de-limon-194183640613583/" target="_blank"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></a></span>
           </div>
           <div class="col l4 m4 s4">
-              <span class="white-text"><a href="https://twitter.com/alfonsoguilin" target="_blank"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i></a></span>
+              <span class="white-text"><a href="https://twitter.com/alfonsoguilin" target="_blank"><i class="fa fa-twitter-square fa-5x" aria-hidden="true"></i></a></span>
           </div>
-          <div class="col l4 m4 s4">
-            <span class="white-text"><a href="https://www.amazon.com/Alfonso-A.-Guilin/e/B00JEWS778/ref=ntt_dp_epwbk_0" target="_blank"><i class="fa fa-amazon fa-4x" aria-hidden="true"></i></a></span>
+          <div class="col l4 m4 s4" id="amazon">
+            <span class="white-text"><a href="https://www.amazon.com/Alfonso-A.-Guilin/e/B00JEWS778/ref=ntt_dp_epwbk_0" target="_blank"><i class="fa fa-amazon fa-5x" aria-hidden="true"></i></a></span>
           </div>
         </div>
     </div>
-    <div class="container hide-on-large-only">
+    <div class="container" id="pinterest">
       <div class="row">
         <div class="col l12 m12 s12 center">
           <div class="span"><a data-pin-do="buttonBookmark" data-pin-tall="true" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a></div>
@@ -71,6 +71,30 @@
 
 
     <main ui-view></main>
+
+    <footer class="page-footer teal darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Alfonso A. Guilin Storyteller</h5>
+            <p class="grey-text text-lighten-4">Made with love by <a href="http://blurobot.us">blurobot.us</a></p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <ul>
+              <li><a href="https://www.facebook.com/The-lemon-thorn-La-espina-de-limon-194183640613583/" target="_blank"><i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i></a></li>
+              <li><a href="https://twitter.com/alfonsoguilin" target="_blank"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.amazon.com/Alfonso-A.-Guilin/e/B00JEWS778/ref=ntt_dp_epwbk_0" target="_blank"><i class="fa fa-amazon fa-4x" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2017 Copyright The Lemon Thorn Press
+        </div>
+      </div>
+    </footer>
+
 
 
     <!--Import jQuery before materialize.js-->
